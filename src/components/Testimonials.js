@@ -3,7 +3,7 @@ import React from 'react'
 export default ({ testimonials }) => (
   <div>
     {testimonials.map(testimonial => (
-      <article className="message">
+      <article className="message" key={testimonial.author}>
         <div className="message-body">
           {testimonial.quote}
           <br />
