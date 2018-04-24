@@ -15,7 +15,8 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
               </h2>
               <PageContent className="content" content={content} />
 
-              <form name="contact" method="POST" netlify="true">
+              <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="field">
                   <label className="label">Your Name</label>
                   <div className="control">
