@@ -1,7 +1,5 @@
 ---
-templateKey: 'contact-page'
-path: /contact
+templateKey: contact-page
 title: Contact Us
 ---
-### Tell us what you think
-
+### Tell us what you think about us
